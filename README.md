@@ -7,6 +7,7 @@
 * FastAPI
 * FastApiUsers
 * Pydantic
+* Aiogoogle
 * SQLAlchemy
 * Alembic
 * SQLite
@@ -38,6 +39,17 @@ DATABASE_URL=sqlite+aiosqlite:///./fastapi.db
 SECRET=yoursecret
 FIRST_SUPERUSER_EMAIL=user@example.com
 FIRST_SUPERUSER_PASSWORD=string
+TYPE=service_account
+PROJECT_ID=...
+PRIVATE_KEY_ID=...
+PRIVATE_KEY=...
+CLIENT_EMAIL=...
+CLIENT_ID=...
+AUTH_URI=https://accounts.google.com/o/oauth2/auth
+TOKEN_URI=https://oauth2.googleapis.com/token
+AUTH_PROVIDER_X509_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
+CLIENT_X509_CERT_URL=...
+EMAIL_USER=creator_service@example.com
 ```
 
 ## Использование
