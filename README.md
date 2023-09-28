@@ -54,7 +54,7 @@ EMAIL_USER=creator_service@example.com
 
 ## Запуск
 
-Чтобы запустить проект, выполните следующую команду:
+Для запуска проекта выполните следующую команду:
 
 ```
 uvicorn app.main:app --reload
